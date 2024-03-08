@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<a href="about me.html">About me</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="skill.html">Skill</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="contact me.html">Contact me</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="portfolio.html">Portfolio</a>
+    <br>
+    <br>
+    <br>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    border: 1px solid black; 
+ 	  justify-content: space-between;
+    width: auto; 
+    height: 50px; 
+  }
+  .column {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+  
+  }
+
+  .column:last-child {
+    margin-right: 20%; 
+  }
+   .column img {
+    width: 100px; 
+    height: 50px; 
+  }
+  .column a {
+  display: flex;
+  align-items: center; 
+  text-align: center; 
+  height: 50px; 
+  }
+  .search-box {
+      width: 100%; 
+      height: auto;
+      margin: auto; 
+      padding: 0px; 
+      border: 0px solid #ccc; 
+      border-radius: 5px; 
+      box-shadow: 0 0px 0px rgba(0, 0, 0, 5.0); 
+    }
+</style>
+
+<div class="topnav">
+  <div class="column">
+  <a href="https://www.asiali.co.th">
+  <img src="asiali-r.jpg">
+  My Application
+  </a>
+  </div>
+  
+  <div class="column">
+    <div class="search-box">
+      <input type="text" placeholder="Search Product...">
+      <button type="submit">Search</button>
+    </div>
+  </div>
+
+  
+  <div class="column">
+    <a href="https://www.asiali.co.th">New Product
+     
+    </a>
+  </div>
+</div>
+
+<br>
+<br>
+  
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap; 
+    }
+
+    .image-box {
+      display: flex; 
+      
+      align-items: center; 
+      margin: 10px; 
+      text-align: center; 
+    }
+
+    .image-box img {
+      width: 500px; 
+      height: 500px; 
+    }
+
+    .image-text {
+      margin-top: 10px; 
+    }
+  </style>
+
+
+
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap; 
+    }
+
+    .image-box {
+      display: flex; 
+     
+      align-items: center; 
+      margin: 10px; 
+      text-align: center; 
+    }
+
+    .image-box img {
+      width: 150px; 
+      height: auto; 
+    }
+
+    .image-text {
+      margin-top: 10px; 
+    }
+  </style>
+
+
+<p>
+<div class="container">
+  <div class="image-box">
+    <img src="s70.jpg" alt="Girl in a jacket">
+    <div class="image-text">
+      <p>S70 IC Card Fudan
+      <br>FM11RF32N White Card</p>
+        
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="UID T5577.jpg" alt="Boy with a cap">
+    <div class="image-text">
+      <p>UID T5577 Dual Frequency<br>Composite Key Chain ID 125</p>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="Rewritable Long-distance.jpg" alt="Boy with a cap">
+    <div class="image-text">
+      <p>Rewritable Long-distance<br>Parking Bluetooth Card</p>
+    </div>
+  </div>
+  </div>
+</p>
+<br>
+<br>
+<br>
+
+<p>
+<div class="container">
+  <div class="image-box">
+    <img src="HR1.jpg" alt="Flowers in the garden">
+    <div class="image-text">
+      <p>HR 1 Access Control HID Card<br>Reader Output W626-37</p>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="57coin.jpg" alt="Flowers in the garden">
+    <div class="image-text">
+      <p>Coin 125kHz Rewritable T5577<br>RFID ID Keycard</p>
+    </div>
+  </div>
+  
+  <div class="image-box">
+    <img src="blank card.jpg" alt="Flowers in the garden">
+    <div class="image-text">
+      <p>Blank Card for Copy or Screen<br>Print H.I.D. Low Frequency 125</p>
+    </div>
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
