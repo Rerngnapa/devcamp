@@ -1,0 +1,29 @@
+.item{
+    background-color: antiquewhite;
+    padding: 0%;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    height: 80px;
+    background-color: #3cd070;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+nav ul li{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+nav ul li a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16px; /* ขนาดตัวอักษร */
+  color: white; /* สีของตัวอักษร */
+  text-decoration: none;
+  text-align: justify;
+}
+
